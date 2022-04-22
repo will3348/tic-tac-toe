@@ -3,10 +3,7 @@
     <TheHero :hero-title="'Ready compete with your Partner?'">
       <template #hero-image>
         <div class="flex justify-center">
-          <img
-            class="sm:w-screen md:w-3/4"
-            src="assets\images\tictactoe.png"
-            alt="Hero Image"
+          <img class="sm:w-screen md:w-3/4" src="assets\images\tictactoe.png" alt="Hero Image"
           />
         </div>
       </template>
@@ -24,9 +21,9 @@
         </NuxtLink>
       </template>
     </TheHero>
-    <AbooutCard
-      :about-title="`What is Tic Tac Toe?`"
-      :about-description="`Tic-tac-toe  is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.`"
+    <IntroducePart
+      :introduceTitle= "`What is Tic Tac Toe?`"
+      :introduceDescription= "`Tic-tac-toe  is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.`"
     >
       <template #about-image>
         <img
@@ -42,6 +39,6 @@
           >Learn more Tips --></NuxtLink
         >
       </template>
-    </AbooutCard>
+    </IntroducePart>
   </div>
 </template>
