@@ -3,7 +3,7 @@
     <TheHero :hero-title="'Ready compete with your Partner?'">
       <template #hero-image>
         <div class="flex justify-center">
-          <img class="sm:w-screen md:w-3/4" src="assets\images\tictactoe.png" alt="Hero Image"
+          <img class="sm:w-screen md:w-3/4" src="assets\images\image2.png" alt="Hero Image"
           />
         </div>
       </template>
@@ -28,7 +28,7 @@
       <template #about-image>
         <img
           class="w-10/12 self-center rounded-xl"
-          src="assets\images\Tic-Tac-Toe-darts.jpg"
+          src="assets\images\image1.jpg"
           alt="image"
         />
       </template>

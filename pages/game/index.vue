@@ -19,6 +19,7 @@
   </div>
 </template>
 <script>
+// import { computed , ref } from 'vue'
 // const winningConditions = [
 //   [0, 1, 2],
 //   [3, 4, 5],
