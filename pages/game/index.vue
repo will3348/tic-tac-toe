@@ -16,8 +16,8 @@
           </div>
         </div>
       </div>
-      <h2 class="status" v-if="gameStatus==='playing'">
-        It's Player {{ player }}'s Turn
+      <h2 class="status text-4xl pt-5" v-if="gameStatus==='playing'">
+        It's Player {{ player }}'s Turn.
       </h2>
       <h2 class="status" v-if="gameStatus==='win'">{{ player }} Won</h2>
       <h2 class="status" v-if="gameStatus==='tie'"> Please Restart</h2>

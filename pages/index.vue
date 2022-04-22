@@ -1,6 +1,6 @@
 <template>
   <div class="h-full">
-    <TheHero :hero-title="'Ready compete with your Partner?'">
+    <TheHero :hero-title="'Make The World A Better Place With Game'">
       <template #hero-image>
         <div class="flex justify-center">
           <img class="sm:w-screen md:w-3/4" src="assets\images\image2.png" alt="Hero Image"
@@ -15,7 +15,7 @@
         </NuxtLink>
 
         <NuxtLink
-          class="bg-gray-700 hover:bg-gray-900 text-white focus:border-blue-400 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
+          class="bg-gray-500 hover:bg-gray-600 text-white focus:border-blue-400 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
           to="/about"
           >Read some tips
         </NuxtLink>
