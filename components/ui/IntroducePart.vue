@@ -1,5 +1,5 @@
 <template>
-  <section class="grid sm:grid-cols-1 md:grid-cols-3 bg-gray-200 sm:gap-10">
+  <section class="grid sm:grid-cols-1 md:grid-cols-3 bg-gray-200 sm:gap-10 pb-20">
     <div class="flex flex-col col-span-1">
       <slot name="about-image"></slot>
     </div>
