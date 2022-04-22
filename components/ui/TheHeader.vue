@@ -4,7 +4,7 @@
     <a href="/"><span class="text-6xl font-bold text-indigo-400"
           >Tic Tac Toe</span></a>
     </div>
-    <div class="sm:flex sm:flex-col">
+    <div class="sm:flex sm:flex-col mt-5">
       <nav class="flex sm:flex-col md:flex-row justify-around md:gap-36">
          <NuxtLink class="text-gray-500 text-2xl hover:text-white" to="/"
           >Home</NuxtLink

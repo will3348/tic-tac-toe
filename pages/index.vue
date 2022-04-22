@@ -34,7 +34,7 @@
       </template>
       <template #links>
         <NuxtLink
-          class="px-10 sm:pt-10 hover:text-black text-white md:text-3xl sm:text-xl"
+          class="px-10 sm:pt-10 hover:text-black text-gray-500 md:text-3xl sm:text-xl"
           to="/about"
           >Learn more Tips --></NuxtLink
         >

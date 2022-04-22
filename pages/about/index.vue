@@ -2,7 +2,7 @@
   <div class="bg-gray-200">
     <div class="page-content" v-if="data">
       <div class="title text-center w-full">
-        <h1 class="font-mono text-7xl text-yellow-500">
+        <h1 class="font-mono text-7xl text-yellow-500 pt-20">
           {{ data.title }}
         </h1>
         <h2 class="text-4xl text-gray-700 p-10">{{ data.subtitle }}</h2>
@@ -138,7 +138,8 @@
             gap-10
             w-4/5
             mx-auto
-            my-10
+            mt-10
+            pb-10
           "
         >
           <div class="wrapper">
