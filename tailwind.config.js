@@ -381,10 +381,7 @@ module.exports = {
         '"Courier New"',
         "monospace",
       ],
-      yuji:["Yuji Boku"],
-      body: [
-        "Source Code Pro", "monospace",
-      ],
+     
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
