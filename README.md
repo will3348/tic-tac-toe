@@ -6,4 +6,4 @@
 - Styling with Tailwind CSS.
 ### Links
 - 	[GitHub Repo](https://github.com/will3348/tic-tac-toe)
-- 	[Live Page]()
+- 	[Live Page](https://melodious-klepon-61830f.netlify.app/)
