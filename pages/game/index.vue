@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-200">
     <div class="game w-full text-center">
-      <h1 class="title text-red-500 text-6xl p-10">
+      <h1 class="title text-red-500 p-10 lg:text-5xl md:text-4xl sm:text-4xl">
         A Game Is Never Over Until It's Over.
       </h1>
       <div class="w-max container grid grid-cols-3 gap-0 mx-auto">
@@ -9,14 +9,14 @@
           <div v-for="(n, j) in 3" v-bind:key="j">
             <div
               v-on:click="performMove(i, j)"
-              class="cell w-40 h-40 border-2 border-slate-900 cursor-grabbing flex items-center justify-center"
+              class="cell border-2 border-slate-900 cursor-grabbing flex items-center justify-center  xs:w-20 h-20 sm:w-28 h-28 md:w-32 h-32 lg:w-40 h-40"
             >
               <span class="text-6xl" :class="board[i][j]==='X' ? 'text-teal-400' :'text-pink-600'" v-if="board[i][j] !== ''" >{{ board[i][j] }}</span>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="status text-4xl pt-5" v-if="gameStatus==='playing'">
+      <h2 class="status pt-5 lg:text-4xl md:text-4xl sm:text-3xl" v-if="gameStatus==='playing'">
         It's Player {{ player }}'s Turn.
       </h2>
       <h2 class="status text-4xl pt-5" v-if="gameStatus==='win'">{{ player }} Won</h2>
@@ -26,10 +26,12 @@
         class="
           game--restart
           bg-indigo-400
-          text-white text-3xl
+          text-white
           m-10
-          p-10
+          p-5
           rounded-2xl
+          md:text-3xl
+          sm:text-2xl
         "
       >
         Restart Game
@@ -58,17 +60,20 @@ export default {
         return;
       }
       this.board[x][y] = this.player;
+      // At least 5 steps to win a game,  so checkWin at step>4
       if (this.step>4 && this.checkWin(this.player)) {
         this.gameStatus = "win";
         return;
       }
-      if (this.step===9){
+      if (this.step==9){
         this.gameStatus="tie"
         return;
       }
       
       this.switchPlayer();
     },
+
+  
     restart() {
       this.board = [
         ["", "", ""],
@@ -83,6 +88,7 @@ export default {
       this.player === "X" ? (this.player = "O") : (this.player = "X");
     },
     checkWin(player) {
+      // 0,0   1,0  2,0     0,1  1,1  2,1     0,2  1,2  2,2
       for (let i = 0; i < 3; i++) {
         if (
           this.board[0][i] === player &&

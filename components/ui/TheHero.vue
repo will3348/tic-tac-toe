@@ -4,7 +4,7 @@
   >
     <div class="col-span-1 text-center self-center m-6">
       <div class="flex flex-col py-10">
-        <h1 class="sm:text-3xl md:text-6xl text-gray-500 m-6">
+        <h1 class="text-gray-500 m-6 xl:text-6xl lg:text-5xl md:text-3xl sm:text-3xl ">
           {{ heroTitle }}
         </h1>
         <slot name="hero-description"></slot>

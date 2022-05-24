@@ -9,13 +9,13 @@
       </template>
       <template #links>
         <NuxtLink
-          class="bg-white hover:bg-slate-300 text-gray-700 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
+          class="bg-white hover:bg-slate-300 text-gray-700 rounded-full text-base text-center lg:text-3xl md:text-2xl sm:text-xl"
           to="/game"
           >Play Now
         </NuxtLink>
 
         <NuxtLink
-          class="bg-gray-500 hover:bg-gray-600 text-white focus:border-blue-400 rounded-full text-base text-center sm:mx-20 md:mx-40 p-6"
+          class="bg-gray-500 hover:bg-gray-600 text-white focus:border-blue-400 rounded-full text-base text-center lg:text-3xl md:text-2xl sm:text-xl"
           to="/about"
           >Read some tips
         </NuxtLink>
