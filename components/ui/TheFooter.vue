@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-evenly bg-gray-300">
+  <div class="flex justify-evenly bg-gray-300 static bottom-0 w-full">
     <div>
       <a href="https://github.com/will3348/tic-tac-toe">
         <img

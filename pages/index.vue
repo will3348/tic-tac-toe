@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full">
+  <div class="h-full bg-gray-500">
     <TheHero :hero-title="'Make The World A Better Place With Game'">
       <template #hero-image>
         <div class="flex justify-center">

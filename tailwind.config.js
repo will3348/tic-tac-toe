@@ -382,6 +382,7 @@ module.exports = {
         '"Courier New"',
         "monospace",
       ],
+      'press-start': ['"Press Start 2P"', 'cursive']
      
     },
     fontSize: {

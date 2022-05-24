@@ -2,10 +2,10 @@
   <div class="bg-gray-200">
     <div class="page-content" v-if="data">
       <div class="title text-center w-full">
-        <h1 class="font-mono  text-yellow-500 pt-20 lg:text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
+        <h1 class="font-mono  text-yellow-500 pt-20 lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl">
           {{ data.title }}
         </h1>
-        <h2 class="text-gray-700 p-10 lg:text-5xl md:text-4xl sm:text-3xl">{{ data.subtitle }}</h2>
+        <h2 class="text-gray-700 p-10 lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl">{{ data.subtitle }}</h2>
         <div
           class="
             w-full

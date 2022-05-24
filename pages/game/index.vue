@@ -9,7 +9,7 @@
           <div v-for="(n, j) in 3" v-bind:key="j">
             <div
               v-on:click="performMove(i, j)"
-              class="cell border-2 border-slate-900 cursor-grabbing flex items-center justify-center  xs:w-20 h-20 sm:w-28 h-28 md:w-32 h-32 lg:w-40 h-40"
+              class="cell border-2 border-slate-900 cursor-grabbing flex items-center justify-center  lg:w-40 h-40 xs:w-20 h-20 sm:w-28 h-28 md:w-32 h-32 "
             >
               <span class="text-6xl" :class="board[i][j]==='X' ? 'text-teal-400' :'text-pink-600'" v-if="board[i][j] !== ''" >{{ board[i][j] }}</span>
             </div>
