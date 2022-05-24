@@ -3,7 +3,7 @@
     <TheHero :hero-title="'Make The World A Better Place With Game'">
       <template #hero-image>
         <div class="flex justify-center">
-          <img class="sm:w-screen md:w-3/4" src="public\image2.png" alt="Hero Image"
+          <img class="sm:w-screen md:w-3/4" src="https://a.storyblok.com/f/154899/512x512/c85b52732a/image2.png" alt="Hero Image"
           />
         </div>
       </template>
@@ -28,7 +28,7 @@
       <template #about-image>
         <img
           class="w-10/12 self-center rounded-xl"
-          src="public\image1.jpg"
+          src="https://a.storyblok.com/f/154899/850x601/7f411a557c/image1.jpg"
           alt="image"
         />
       </template>
